@@ -134,7 +134,7 @@ class _HomeState extends State<Home> {
             });
           }
         } catch (e) {
-          setState(() {});
+          print('$link :: $e');
         }
       }
     }
